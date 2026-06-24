@@ -44,7 +44,7 @@ st.markdown("""
 
 .brand {
     font-family: 'Playfair Display', serif;
-    font-size: 72px;
+    font-size: clamp(42px, 8vw, 72px);
     color: #f4fff3;
     line-height: 1;
 }
@@ -131,6 +131,26 @@ h1, h2, h3, p, label {
     font-size: 17px;
 }
 </style>
+@media (max-width: 768px) {
+
+    .brand {
+        font-size: 42px !important;
+        line-height: 1.1;
+    }
+
+    .tagline {
+        font-size: 18px !important;
+    }
+
+    .quote {
+        font-size: 14px !important;
+    }
+
+    .hero {
+        padding: 25px !important;
+        min-height: auto !important;
+    }
+}
 """, unsafe_allow_html=True)
 
 
