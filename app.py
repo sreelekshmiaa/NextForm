@@ -130,7 +130,6 @@ h1, h2, h3, p, label {
     font-weight: 800;
     font-size: 17px;
 }
-</style>
 @media (max-width: 768px) {
 
     .brand {
@@ -151,6 +150,9 @@ h1, h2, h3, p, label {
         min-height: auto !important;
     }
 }
+
+</style>
+
 """, unsafe_allow_html=True)
 
 
@@ -343,5 +345,8 @@ if st.button("Analyze Item", use_container_width=True):
 
     else:
         st.warning("Please enter an item name or upload an image.")
+
+
+
 
 
