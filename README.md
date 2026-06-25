@@ -1,6 +1,3 @@
-![Uploading Screenshot (227).png…]()
-
-
 # ♻️ NextForm
 
 ## Waste Transformation & Opportunity Platform
